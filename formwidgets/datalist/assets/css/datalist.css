@@ -1,0 +1,54 @@
+.datalist-container {
+    position: relative;
+}
+.input-wrapper {
+    position: relative;
+}
+
+.clear-input {
+	cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+}
+
+
+.datalist-results {
+	display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+}
+.datalist-results div {
+    padding: 8px;
+    cursor: pointer;
+}
+.datalist-results div:hover {
+    background: #eee;
+}
+
+.optionsList {
+	display: none;
+	overflow-y: auto;
+	position: absolute;
+	z-index: 1000;
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.datalist-results .option:is(.opt-group) {
+	font-weight: bold;
+}
+
+.datalist-results .option:not(.opt-group) {
+	padding-left: 20px;
+}
