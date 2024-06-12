@@ -1,4 +1,4 @@
-# OCMS Datalist Widget
+# OCTOBER CMS Datalist Widget
 Simple datalist form widget with input text for custom value. This widget not using `<datalist>` tag. It is something like `taglist` in OCMS, but little bit different.
 
 **The widget mostly works only with text as value. The value as a key is only an enrichment of the function.**
