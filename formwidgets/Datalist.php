@@ -1,4 +1,4 @@
-<?php namespace Mcore\ImportDocuments\FormWidgets;
+<?php namespace Mcore\DatalistWidget\FormWidgets;
 
 use Arr;
 use Backend\Classes\FormWidgetBase;
