@@ -175,3 +175,5 @@ public function getMethodFieldOptions()
     ];
 }
 ```
+## License
+MIT
