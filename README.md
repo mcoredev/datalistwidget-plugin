@@ -5,6 +5,9 @@ Simple datalist form widget with input text for custom value. This widget not us
 
 <img width="404" alt="Snímka obrazovky 2024-06-12 o 17 17 16" src="https://github.com/mcoredev/datalistwidget-plugin/assets/18698910/c02c0851-6b81-4003-bf2f-2ff4677e3c53">
 
+Install `php artisan plugin:install Mcore.DatalistWidget --from=git@github.com:mcoredev/datalistwidget-plugin.git --oc`
+
+
 ## Example of config fields
 ```
 approved_by:
