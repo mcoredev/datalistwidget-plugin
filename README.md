@@ -1,7 +1,7 @@
 # OCTOBER CMS Datalist FormWidget
 Simple datalist form widget with input text for custom value. This widget not using `<datalist>` tag. It is something like `taglist` in OCMS, but little bit different.
 
-**The widget mostly works only with text as value. The value as a key is only an enrichment of the function.**
+**The widget mostly works only with text as value. The value as a key is only an enrichment of the function not so usable.**
 
 <img width="404" alt="Snímka obrazovky 2024-06-12 o 17 17 16" src="https://github.com/mcoredev/datalistwidget-plugin/assets/18698910/c02c0851-6b81-4003-bf2f-2ff4677e3c53">
 
@@ -33,6 +33,18 @@ approved_by:
 > If you set `useOptionKey: true` or `useGroupKey: true` based on your scenario widget return key like value into input.
 
 
+## Types of usage
+
+### Simple options
+```
+approved_by:
+    label: Approved
+    type: datalist
+    options:
+       - Option 1
+       - Option 2
+```
+### Keyed options
 ```
 approved_by:
     label: Approved
@@ -42,16 +54,7 @@ approved_by:
        key_1: Option 1
        key_2: Option 2
 ``` 
-
-```
-approved_by:
-    label: Approved
-    type: datalist
-    options:
-       - Option 1
-       - Option 2
-```
-
+### Custom method options
 ```
 approved_by:
     label: Approved
